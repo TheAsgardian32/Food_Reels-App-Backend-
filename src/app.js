@@ -32,6 +32,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
     origin: "https://food-reels-app-frontend.vercel.app",
+    // origin: "http://localhost:5173",
     credentials: true
 }))
 
